@@ -3,7 +3,7 @@ import './css/styles.css';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
 
-import {fetchCountries} from './fetchCountries';
+import {fetchCountries} from './aFetchCountries';
 import card from './templates/card.hbs';
 import list from './templates/list.hbs';
 
